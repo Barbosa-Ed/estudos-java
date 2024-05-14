@@ -1,7 +1,8 @@
+
 public class SmartTv {
-    boolean ligado=false;
-    int canal=1;
-    int volume=25;
+    public boolean ligado=false;
+    public int canal=1;
+    public int volume=25;
 
     //Métodos para ligar e desligar
     public void ligar(){
