@@ -8,7 +8,7 @@ serializacao/
 ├── Estudante.java  
 ├── Serializacao.java  
 └── serializado/  
-&nbsp; &nbsp; &nbsp; &nbsp;└── estudante.ser (gerado após a execução)
+&nbsp; &nbsp; └── estudante.ser (gerado após a execução)
 
 
 ## 📄 Descrição dos Arquivos
@@ -41,19 +41,20 @@ java serializacao.Serializacao
 
 
 3. Saída esperada no console:
-
+```
 Foi!
 O objeto desserializado: Estudante [nome=Ed, matricula=2310470, curso=ADS, senha=null]
+```
 
 Note que a senha aparece como null, pois foi marcada como transient e não é armazenada durante a serialização.
 
-✅ Requisitos
+## ✅ Requisitos
 
 Java 8 ou superior
 
 Terminal ou IDE de sua preferência (ex: IntelliJ, Eclipse, VS Code)
 
-🧠 Observações
+## 🧠 Observações
 
 A pasta serializado/ será criada automaticamente (se não existir) no mesmo diretório do projeto.
 
